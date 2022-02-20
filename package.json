@@ -1,6 +1,6 @@
 {
   "name": "@karim-w/kjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a React component library",
   "scripts": {
     "rollup": "rollup -c"
