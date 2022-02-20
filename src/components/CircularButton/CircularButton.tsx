@@ -1,13 +1,15 @@
 import React from 'react';
-
+import './circularButton.css';
 interface ICircularButtonProps {
-    text: string;
+    style?: React.CSSProperties;
+    children?: React.ReactNode;
 }
 
 const CircularButton = (props: ICircularButtonProps) => {
+    console.log(props);
     return (
-        <button>
-            {props.text}
+        <button style={props.style}>
+            {props.children}
         </button>
     );
 }
